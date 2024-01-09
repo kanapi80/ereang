@@ -1,0 +1,273 @@
+body {
+    font-family: 'Roboto Condensed';
+    /*background: radial-gradient(circle, #1fe4f5 60%, #3fbafe  90%);" */
+    background: radial-gradient(circle, #FFFFFF 30%, #d8e4e2 90%);
+    /* background-color: #FB7000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3CradialGradient id='a' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23FFFFFF'/%3E%3Cstop offset='1' stop-color='%23FB7000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='750' x2='1550' y2='750'%3E%3Cstop offset='0' stop-color='%23fdb880'/%3E%3Cstop offset='1' stop-color='%23FB7000'/%3E%3C/linearGradient%3E%3Cpath id='s' fill='url(%23b)' d='M1549.2 51.6c-5.4 99.1-20.2 197.6-44.2 293.6c-24.1 96-57.4 189.4-99.3 278.6c-41.9 89.2-92.4 174.1-150.3 253.3c-58 79.2-123.4 152.6-195.1 219c-71.7 66.4-149.6 125.8-232.2 177.2c-82.7 51.4-170.1 94.7-260.7 129.1c-90.6 34.4-184.4 60-279.5 76.3C192.6 1495 96.1 1502 0 1500c96.1-2.1 191.8-13.3 285.4-33.6c93.6-20.2 185-49.5 272.5-87.2c87.6-37.7 171.3-83.8 249.6-137.3c78.4-53.5 151.5-114.5 217.9-181.7c66.5-67.2 126.4-140.7 178.6-218.9c52.3-78.3 96.9-161.4 133-247.9c36.1-86.5 63.8-176.2 82.6-267.6c18.8-91.4 28.6-184.4 29.6-277.4c0.3-27.6 23.2-48.7 50.8-48.4s49.5 21.8 49.2 49.5c0 0.7 0 1.3-0.1 2L1549.2 51.6z'/%3E%3Cg id='g'%3E%3Cuse href='%23s' transform='scale(0.12) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.2) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.25) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(0.3) rotate(-20)'/%3E%3Cuse href='%23s' transform='scale(0.4) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(0.5) rotate(20)'/%3E%3Cuse href='%23s' transform='scale(0.6) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.7) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.835) rotate(-40)'/%3E%3Cuse href='%23s' transform='scale(0.9) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(1.05) rotate(25)'/%3E%3Cuse href='%23s' transform='scale(1.2) rotate(8)'/%3E%3Cuse href='%23s' transform='scale(1.333) rotate(-60)'/%3E%3Cuse href='%23s' transform='scale(1.45) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(1.6) rotate(10)'/%3E%3C/g%3E%3C/defs%3E%3Cg transform='translate(1000 0)'%3E%3Cg transform='translate(0 720)'%3E%3Ccircle fill='url(%23a)' r='3000'/%3E%3Cg opacity='0.5'%3E%3Ccircle fill='url(%23a)' r='2000'/%3E%3Ccircle fill='url(%23a)' r='1800'/%3E%3Ccircle fill='url(%23a)' r='1700'/%3E%3Ccircle fill='url(%23a)' r='1651'/%3E%3Ccircle fill='url(%23a)' r='1450'/%3E%3Ccircle fill='url(%23a)' r='1250'/%3E%3Ccircle fill='url(%23a)' r='1175'/%3E%3Ccircle fill='url(%23a)' r='900'/%3E%3Ccircle fill='url(%23a)' r='750'/%3E%3Ccircle fill='url(%23a)' r='500'/%3E%3Ccircle fill='url(%23a)' r='380'/%3E%3Ccircle fill='url(%23a)' r='250'/%3E%3C/g%3E%3Cg transform='rotate(-298.8 0 0)'%3E%3Cuse href='%23g' transform='rotate(10)'/%3E%3Cuse href='%23g' transform='rotate(120)'/%3E%3Cuse href='%23g' transform='rotate(240)'/%3E%3C/g%3E%3Ccircle fill-opacity='0.7' fill='url(%23a)' r='3000'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
+    /* background-attachment: fixed;
+    background-size: cover; */
+}
+/* Full-width input fields */
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 10;
+    width: 60%;
+    /* Full width */
+    height: auto;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    margin: 0;
+}
+/* Modal Content/Box */
+.modal-content {
+    /* style="background: radial-gradient(circle, #1fe4f5 10%, #3fbafe  90%);" */
+    background-color: #fefefe;
+    margin: 5% auto 5% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 0px solid #3fbafe;
+    width: 100%;
+    /* Could be more or less, depending on screen size */
+    /* border-radius: 14px; */
+    /* background: -webkit-linear-gradient(to right, #d8e4e2, #fff, #d8e4e2); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #d8e4e2, #fff, #d8e4e2); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #ddd;
+    border-top-right-radius:80px;
+border-bottom-left-radius:38px;
+border-top:10px solid #3fbafe;
+/*border-left:3px solid #3fbafe;*/
+
+padding-top:20px;
+padding-top:20px;
+/* box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2);*/
+ box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff
+
+}
+.modal-content:hover {
+    box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.4);
+}
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+input[type=text],
+input[type=password] {
+    background: transparent;
+    width: 95%;
+    height: 100%;
+    padding: inherit;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    font-family: 'Roboto Condensed';
+}
+input:hover {
+    box-shadow: 0 4px 2px 1px rgba(0, 0, 0, 0.18);
+    /* box-shadow: 0 0 0px 0 #ADA9A9 inset, 0 0 5px 1px #ADA9A9;*/
+}
+/* UJI */
+a {
+    color: #bbb;
+    text-decoration: none;
+	font-size:10px;
+}
+a:hover {
+    color: #aaa;
+}
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
+.clear-fix {
+    clear: both;
+}
+div.logo {
+    text-align: center;
+    margin: 20px 20px 30px 20px;
+    fill: #566375;
+}
+
+div.logo svg {
+    width: 180px;
+    height: 100px;
+}
+
+.logo-active {
+    fill: #44aacc !important;
+}
+
+#formWrapper {
+    background: rgba(0, 0, 0, .2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s ease;
+}
+
+.darken-bg {
+    background: rgba(0, 0, 0, .5) !important;
+    transition: all .3s ease;
+}
+
+div#form {
+    position: absolute;
+    width: 360px;
+    height: 320px;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    margin-left: -180px;
+    margin-top: -200px;
+}
+
+div.form-item {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+input {
+    transition: all .2s ease;
+}
+
+input.form-style {
+    color: #8a8a8a;
+    display: block;
+    width: 88%;
+    height: 44px;
+    padding: 5px 5%;
+    border: 1px solid #ccc;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+    border-radius: 14px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*background-color: #fff;*/
+    font-family: 'Roboto Condensed';
+    font-size: 105%;
+    letter-spacing: .8px;
+}
+
+div.form-item .form-style:focus {
+    outline: none;
+    border-bottom: 1px solid #bbb;
+    border-top: 0px;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    color: #333333;
+}
+
+div.form-item p.formLabel {
+    position: absolute;
+    left: 50px;
+    top: -4px;
+    font-size: 14px;
+    transition: all .4s ease;
+    color: #bbb;
+	
+}
+
+.formTop {
+    top: -39px !important;
+    left: 10px;
+    font-family: Roboto Condensed;
+    background-color: none;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #3fbafe !important;
+	letter-spacing: 2px;
+}
+
+.formStatus {
+    color: #8a8a8a !important;
+}
+
+.tombol {
+    border: 0px solid #3fbafe;
+    color: #3fbafe;
+    cursor: pointer;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    border-color: #ffffff;
+    color: #fff;
+    /*tulisan*/
+    box-shadow: 0 0 40px 40px #3fbafe
+        /*background tombol*/
+    inset, 0 0 0 0 #3fbafe;
+    transition: all 150ms ease-in-out;
+    width: 88%;
+    border-radius: 14px;
+    height: 45px;
+}
+
+.tombol:hover,
+.btn:focus {
+    color: #3fbafe;
+    outline: 0;
+    box-shadow: 0 0 10px 0 transparent inset, 0 0 10px 4px #3fbafe;
+ 	background-color:transparent;
+	letter-spacing: 4px;
+}
+
+.urlImg {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-image: url('img/login3.png');
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+.urlImg:hover {
+    background-image: url('img/login2.png');
+}
